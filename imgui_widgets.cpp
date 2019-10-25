@@ -518,7 +518,7 @@ bool ImGui::ButtonBehavior(const ImRect& bb, ImGuiID id, bool* out_hovered, bool
                 pressed = true;
                 if (flags & ImGuiButtonFlags_NoHoldingActiveID)
                     ClearActiveID();
-                elseq
+                else
                     SetActiveID(id, window); // Hold on ID
                 FocusWindow(window);
             }
